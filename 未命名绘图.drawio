@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T14:53:25.223Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="lgzVuTCWlbWeirOMpjed" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T14:58:02.560Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="w7nZtQRzBxtQ-eA7XBuz" version="24.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3038" dy="1768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -197,10 +197,10 @@
         <mxCell id="9rlHRxyPnhzW2T0-l2du-56" value="返回前端" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-535" y="-35" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="9rlHRxyPnhzW2T0-l2du-58" value="默认类目尽量确保有数据，若无数据，则前端卡片可能会不足3个。" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-370" y="-355" width="137" height="75" as="geometry" />
+        <mxCell id="9rlHRxyPnhzW2T0-l2du-58" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、默认类目尽量确保有数据，若无数据，则前端卡片可能会不足3个。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;2、如果之前已经是默认类目请求数据并且依然没有结果，则没必要再用默认类目请求了。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-510" y="-380" width="520" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9rlHRxyPnhzW2T0-l2du-59" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="9rlHRxyPnhzW2T0-l2du-58">
+        <mxCell id="9rlHRxyPnhzW2T0-l2du-59" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.121;exitY=-0.016;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="9rlHRxyPnhzW2T0-l2du-58" source="9rlHRxyPnhzW2T0-l2du-36">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-410" y="-270" as="sourcePoint" />
           </mxGeometry>
