@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T14:46:53.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="pugpBzYGcHMCirmJqYbo" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T14:49:52.864Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="fPt9MBbHdsHL6eCvRiXp" version="24.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2536" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -95,13 +95,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9rlHRxyPnhzW2T0-l2du-17" value="前端请求tab&lt;div&gt;数据接口（卡片列表）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-810" y="-660" width="130" height="70" as="geometry" />
+          <mxGeometry x="-810" y="-709" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9rlHRxyPnhzW2T0-l2du-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9rlHRxyPnhzW2T0-l2du-18" target="9rlHRxyPnhzW2T0-l2du-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9rlHRxyPnhzW2T0-l2du-18" value="后端按照指定tab+指定类目检索多个卡片数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-805" y="-560" width="120" height="60" as="geometry" />
+          <mxGeometry x="-805" y="-609" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9rlHRxyPnhzW2T0-l2du-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9rlHRxyPnhzW2T0-l2du-22" target="9rlHRxyPnhzW2T0-l2du-51">
           <mxGeometry relative="1" as="geometry">
@@ -170,6 +170,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="9rlHRxyPnhzW2T0-l2du-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9rlHRxyPnhzW2T0-l2du-44" target="9rlHRxyPnhzW2T0-l2du-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9rlHRxyPnhzW2T0-l2du-44" value="使用结果&lt;div&gt;（可能为空）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-707.5" y="-155" width="115" height="50" as="geometry" />
         </mxCell>
@@ -179,8 +182,20 @@
         <mxCell id="9rlHRxyPnhzW2T0-l2du-48" value="标记结果为兜底数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-530" y="-160" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9rlHRxyPnhzW2T0-l2du-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9rlHRxyPnhzW2T0-l2du-51" target="9rlHRxyPnhzW2T0-l2du-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9rlHRxyPnhzW2T0-l2du-51" value="使用结果&lt;div&gt;（可能为空）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-897.5" y="-160" width="115" height="50" as="geometry" />
+          <mxGeometry x="-897.5" y="-155" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9rlHRxyPnhzW2T0-l2du-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9rlHRxyPnhzW2T0-l2du-52" target="9rlHRxyPnhzW2T0-l2du-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9rlHRxyPnhzW2T0-l2du-52" value="合并所有卡片数据，基于是否命中兜底+卡片展示顺序进行排序，非兜底数据优先展示。" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-842.5" y="-30" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9rlHRxyPnhzW2T0-l2du-56" value="返回前端" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-535" y="-35" width="130" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
